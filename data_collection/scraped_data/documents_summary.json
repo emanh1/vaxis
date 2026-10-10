@@ -1,0 +1,617 @@
+[
+  {
+    "soDangKy": "471310033726",
+    "tenThuoc": "Envacgen",
+    "totalDocs": 3
+  },
+  {
+    "soDangKy": "300310033526",
+    "tenThuoc": "Vaxigrip",
+    "totalDocs": 4
+  },
+  {
+    "soDangKy": "880310033426",
+    "tenThuoc": "SKYVaricella Inj. (Varicella Virus Vaccine (live))",
+    "totalDocs": 3
+  },
+  {
+    "soDangKy": "001310440525",
+    "tenThuoc": "Flumist",
+    "totalDocs": 2
+  },
+  {
+    "soDangKy": "540310322425",
+    "tenThuoc": "Arexvy",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "880310322325",
+    "tenThuoc": "Barycela inj.",
+    "totalDocs": 8
+  },
+  {
+    "soDangKy": "540310322125",
+    "tenThuoc": "Abrysvo",
+    "totalDocs": 2
+  },
+  {
+    "soDangKy": "001310197925",
+    "tenThuoc": "M-M-R II",
+    "totalDocs": 2
+  },
+  {
+    "soDangKy": "001310197825",
+    "tenThuoc": "ProQuad",
+    "totalDocs": 2
+  },
+  {
+    "soDangKy": "540310196925",
+    "tenThuoc": "Nimenrix",
+    "totalDocs": 2
+  },
+  {
+    "soDangKy": "890310196625",
+    "tenThuoc": "Rotavac",
+    "totalDocs": 2
+  },
+  {
+    "soDangKy": "539310049125",
+    "tenThuoc": "Vaxneuvance",
+    "totalDocs": 2
+  },
+  {
+    "soDangKy": "001310047625",
+    "tenThuoc": "Menquadfi",
+    "totalDocs": 3
+  },
+  {
+    "soDangKy": "539310047525",
+    "tenThuoc": "Prevenar 20",
+    "totalDocs": 2
+  },
+  {
+    "soDangKy": "400310303924",
+    "tenThuoc": "Qdenga",
+    "totalDocs": 11
+  },
+  {
+    "soDangKy": "001310303524",
+    "tenThuoc": "Pneumovax 23",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "540310303224",
+    "tenThuoc": "Shingrix",
+    "totalDocs": 3
+  },
+  {
+    "soDangKy": "760410035823",
+    "tenThuoc": "Tecentriq",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "800410090223",
+    "tenThuoc": "Immunorho",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "800310090123",
+    "tenThuoc": "Bexsero",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "900410090023",
+    "tenThuoc": "IV Immunoglobulin 5% Octapharma",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "900410089923",
+    "tenThuoc": "IV Immunoglobulin 5% Octapharma",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "900410089823",
+    "tenThuoc": "IV Immunoglobulin 5% Octapharma",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "880410089623",
+    "tenThuoc": "I.V.-Globulin SN inj.",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "SP3-1243-22",
+    "tenThuoc": "Enbrel",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "SP3-1245-22",
+    "tenThuoc": "Evusheld",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "SP3-1244-22",
+    "tenThuoc": "Evusheld",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLSP-H03-1172-19",
+    "tenThuoc": "Humira",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLVX-878-15",
+    "tenThuoc": "M-M-R II",
+    "totalDocs": 2
+  },
+  {
+    "soDangKy": "001310178700",
+    "tenThuoc": "Gardasil 9",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "VX-1225-21",
+    "tenThuoc": "Priorix",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "880310646124",
+    "tenThuoc": "GCFlu Quadrivalent Pre-filled Syringe inj.",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "870310304024",
+    "tenThuoc": "Influvac Tetra",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "300310305924",
+    "tenThuoc": "Vaxigrip Tetra",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "890310108324",
+    "tenThuoc": "JEEV",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "890310108424",
+    "tenThuoc": "JEEV",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "540310111524",
+    "tenThuoc": "Prevenar 13",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "QLVX-H03-1142-19",
+    "tenThuoc": "Prevenar 13",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "QLVX-H03-1141-19",
+    "tenThuoc": "Imojev MD",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "300310036923",
+    "tenThuoc": "Boostrix",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "001310177800",
+    "tenThuoc": "Varilrix",
+    "totalDocs": 2
+  },
+  {
+    "soDangKy": "QLSP-H03-1135-18",
+    "tenThuoc": "Tecentriq",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLSP-H02-984-16",
+    "tenThuoc": "Stelara",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLSP-975-16",
+    "tenThuoc": "Eprex 4000 U",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLSP-974-16",
+    "tenThuoc": "Eprex 10000 U",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLSP-971-16",
+    "tenThuoc": "Eprex 2000 U",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLSP-970-16",
+    "tenThuoc": "Remicade",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLSP-948-16",
+    "tenThuoc": "Actilyse",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLSP-940-16",
+    "tenThuoc": "Survanta",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLSP-927-16",
+    "tenThuoc": "Mixtard 30 Flexpen 100 IU/ml",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLSP-908-15",
+    "tenThuoc": "Insunova-G",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLSP-851-15",
+    "tenThuoc": "Lacbiosyn",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLSP-821-14",
+    "tenThuoc": "Recormon",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLSP-815-14",
+    "tenThuoc": "Botox",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "400410035923",
+    "tenThuoc": "Pentaglobin",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLSP-0790-14",
+    "tenThuoc": "Lantus",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLSP-0784-14",
+    "tenThuoc": "Ovitrelle",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLSP-0767-13",
+    "tenThuoc": "Biosubtyl DL",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLSP-0636-13",
+    "tenThuoc": "Peg-Grafeel",
+    "totalDocs": 2
+  },
+  {
+    "soDangKy": "QLVX-1138-19",
+    "tenThuoc": "Infanrix IPV-Hib",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "QLVX-H03-1137-19",
+    "tenThuoc": "IVACFLU-S (Vắc xin cúm mùa dạng mảnh bất hoạt)",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "QLVX-H03-1111-18",
+    "tenThuoc": "Menactra",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "893310108024",
+    "tenThuoc": "Vắc xin viêm gan A tinh khiết, bất hoạt-HAVAX",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "890310178100",
+    "tenThuoc": "PENTAVAC",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "885310306024",
+    "tenThuoc": "Imojev",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "300310198325",
+    "tenThuoc": "Synflorix",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "400310177900",
+    "tenThuoc": "Twinrix",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "754310306124",
+    "tenThuoc": "Adacel",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "300310038123",
+    "tenThuoc": "Hexaxim",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "QLVX-H02-1051-17",
+    "tenThuoc": "Vắc xin bại liệt uống nhị liên",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "300310250723",
+    "tenThuoc": "Avaxim 80 U Pediatric",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "540310037023",
+    "tenThuoc": "Rotarix",
+    "totalDocs": 2
+  },
+  {
+    "soDangKy": "QLVX-1048-17",
+    "tenThuoc": "Rabipur",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "893310109024",
+    "tenThuoc": "Vắc xin Thương hàn Vi polysaccharide",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "QLVX-1046-17",
+    "tenThuoc": "Vắc xin Varicella sống giảm độc lực-Varicella Vaccine-GCC Inj",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "890310304524",
+    "tenThuoc": "TRESIVAC",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "893310036523",
+    "tenThuoc": "Vắc xin Viêm gan B tái tổ hợp Gene-Hbvax",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "893310036423",
+    "tenThuoc": "Vắc xin viêm gan B tái tổ hợp - Gene-Hbvax",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "890310249723",
+    "tenThuoc": "Indirab",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "QLVX-1041-17",
+    "tenThuoc": "SPEEDA",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "890310108224",
+    "tenThuoc": "ComBE Five (liquid)",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "893310109424",
+    "tenThuoc": "Rotavin",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "893310251023",
+    "tenThuoc": "Vắc xin phòng lao (BCG)",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "893310179500",
+    "tenThuoc": "MRVAC",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLVX-994-17",
+    "tenThuoc": "Shanvac-B",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "QLVX-993-17",
+    "tenThuoc": "Tetavax",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "QLVX-992-17",
+    "tenThuoc": "Polysaccharide Meningococcal A+C  Vaccine",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "300310250623",
+    "tenThuoc": "Pentaxim",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "QLVX-990-17",
+    "tenThuoc": "RotaTeq",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "300310036823",
+    "tenThuoc": "Infanrix Hexa",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLVX-988-17",
+    "tenThuoc": "HIBERIX",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "850310304324",
+    "tenThuoc": "Quimi-Hib",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "300310305824",
+    "tenThuoc": "Verorab Vắc xin dại (bất hoạt), điều chế trên canh cấy tế bào",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "850310110724",
+    "tenThuoc": "VA-MENGOC-BC",
+    "totalDocs": 3
+  },
+  {
+    "soDangKy": "880310249823",
+    "tenThuoc": "GC FLU pre-filled syringe inj",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "893310250923",
+    "tenThuoc": "Vắc xin bạch hầu – ho gà – uốn ván hấp phụ (DPT)",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "300310647324",
+    "tenThuoc": "Typhim Vi",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "QLVX-943-16",
+    "tenThuoc": "Vắc xin uốn ván bạch hầu hấp phụ (Td)",
+    "totalDocs": 2
+  },
+  {
+    "soDangKy": "QLVX-942-16",
+    "tenThuoc": "Vắc xin uốn ván bạch hầu hấp phụ (Td)",
+    "totalDocs": 2
+  },
+  {
+    "soDangKy": "QLVX-934-16",
+    "tenThuoc": "Euvax B",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "QLVX-933-16",
+    "tenThuoc": "Euvax B",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "001310037823",
+    "tenThuoc": "Varivax",
+    "totalDocs": 2
+  },
+  {
+    "soDangKy": "QLVX-883-15",
+    "tenThuoc": "Gardasil",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "893310199125",
+    "tenThuoc": "Vắc xin\nuốn ván\nhấp phụ\n(TT)",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "893310323125",
+    "tenThuoc": "Vắc xin uốn ván hấp phụ (TT)",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "893310034026",
+    "tenThuoc": "MVVAC",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLVX-878-15",
+    "tenThuoc": "M-M-R® II",
+    "totalDocs": 2
+  },
+  {
+    "soDangKy": "893310441425",
+    "tenThuoc": "Vắc xin tả uống - mORCVAX",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLVX-0798-14",
+    "tenThuoc": "Measles and Rubella Vaccine Live, Attenuated (Freeze-Dried)",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLVX-0775-14",
+    "tenThuoc": "HEPAVAX-GENE TF inj.",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "QLVX-0774-14",
+    "tenThuoc": "HEPAVAX-GENE TF inj.",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "QLVX-0766-13",
+    "tenThuoc": "Engerix B",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "540310037123",
+    "tenThuoc": "Engerix B",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "850310304224",
+    "tenThuoc": "Heberbiovac HB",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "QLVX-0653-13",
+    "tenThuoc": "INFLUVAC",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "QLVX-0652-13",
+    "tenThuoc": "VAXIGRIP (0,25ml)",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "690310177400",
+    "tenThuoc": "RS.JEV",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "QLVX-0646-13",
+    "tenThuoc": "VAXIGRIP (0,5ml)",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "850310304424",
+    "tenThuoc": "Heberbiovac HB",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "QLVX-0490-12",
+    "tenThuoc": "CervarixTM",
+    "totalDocs": 1
+  },
+  {
+    "soDangKy": "300114999224",
+    "tenThuoc": "Cetrotide",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "VN-16393-13",
+    "tenThuoc": "Bioflora 200mg",
+    "totalDocs": 0
+  },
+  {
+    "soDangKy": "VN-16392-13",
+    "tenThuoc": "Bioflora 100mg",
+    "totalDocs": 0
+  }
+]
