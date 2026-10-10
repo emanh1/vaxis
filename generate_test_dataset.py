@@ -104,26 +104,98 @@ QUESTION_TEMPLATES = {
 }
 
 # Map sections to expected_documents and expected_sections
+# Include various Vietnamese naming conventions (numbered, short, full)
 SECTION_MAPPING = {
-    "indications": ["CHỈ ĐỊNH"],
-    "target_population": ["CHỈ ĐỊNH", "Đối tượng sử dụng"],
-    "dosage": ["LIỀU LƯỢNG VÀ CÁCH DÙNG"],
-    "contraindications": ["CHỐNG CHỈ ĐỊNH"],
-    "pregnancy": ["THAI KỲ VÀ CHO CON BÚ"],
-    "breastfeeding": ["THAI KỲ VÀ CHO CON BÚ"],
-    "side_effects_common": ["TÁC DỤNG KHÔNG MONG MUỐN"],
-    "side_effects_specific": ["TÁC DỤNG KHÔNG MONG MUỐN"],
-    "side_effects_serious": ["TÁC DỤNG KHÔNG MONG MUỐN"],
-    "allergy_history": ["CHỐNG CHỈ ĐỊNH", "CẢNH BÁO VÀ THẬN TRỌNG"],
-    "concurrent_vaccines": ["TƯƠNG TÁC VÀ TƯƠNG KỴ"],
-    "underlying_conditions": ["CẢNH BÁO VÀ THẬN TRỌNG"],
-    "missed_dose": ["LIỀU LƯỢNG VÀ CÁCH DÙNG"],
-    "post_vaccination_monitoring": ["CẢNH BÁO VÀ THẬN TRỌNG"],
-    "injection_site_reaction": ["TÁC DỤNG KHÔNG MONG MUỐN"],
-    "age_specific": ["LIỀU LƯỢNG VÀ CÁCH DÙNG"],
-    "unknown_vaccination_history": ["LIỀU LƯỢNG VÀ CÁCH DÙNG"],
-    "storage": ["THÔNG TIN SẢN PHẨM", "BẢO QUẢN"],
-    "driving_operating": ["ẢNH HƯỞNG ĐẾN KHẢ NĂNG LÁI XE VÀ VẬN HÀNH MÁY MÓC"],
+    "indications": [
+        "CHỈ ĐỊNH", "Chỉ định", "CHỈ ĐỊNH ĐIỀU TRỊ", "Chỉ định điều trị",
+        "INDICATIONS", "Indications", "3.1. Chỉ định điều trị"
+    ],
+    "target_population": [
+        "CHỈ ĐỊNH", "Đối tượng sử dụng", "ĐỐI TƯỢNG SỬ DỤNG",
+        "Chỉ định", "3.1. Chỉ định điều trị"
+    ],
+    "dosage": [
+        "LIỀU LƯỢNG VÀ CÁCH DÙNG", "Liều lượng và cách dùng",
+        "LIỀU DÙNG", "Liều dùng", "Liều lượng", "CÁCH DÙNG",
+        "DOSAGE", "Dosage", "3.2. Liều lượng và cách dùng", "3.2. Liều dùng, cách dùng",
+        "LỊCH TIÊM", "Lịch tiêm"
+    ],
+    "contraindications": [
+        "CHỐNG CHỈ ĐỊNH", "Chống chỉ định", "CHỐNG CHỈ ĐỊNH",
+        "CONTRAINDICATIONS", "Contraindications", "3.3. Chống chỉ định",
+        "4. Chống chỉ định"
+    ],
+    "pregnancy": [
+        "THAI KỲ VÀ CHO CON BÚ", "Thai kỳ và cho con bú",
+        "Thai kỳ", "THAI KỲ", "Cho con bú", "CHO CON BÚ",
+        "PREGNANCY", "Pregnancy", "3.4. Thai kỳ và cho con bú",
+        "4.1. Thai kỳ"
+    ],
+    "breastfeeding": [
+        "THAI KỲ VÀ CHO CON BÚ", "Thai kỳ và cho con bú",
+        "Thai kỳ", "Cho con bú", "CHO CON BÚ", "4.2. Cho con bú"
+    ],
+    "side_effects_common": [
+        "TÁC DỤNG KHÔNG MONG MUỐN", "Tác dụng không mong muốn",
+        "TÁC DỤNG PHỤ", "Tác dụng phụ", "TÁC DỤNG BẤT LỢI",
+        "SIDE EFFECTS", "Side effects", "TÁC DỤNG", "4.4. Tác dụng không mong muốn",
+        "5. Tác dụng không mong muốn"
+    ],
+    "side_effects_specific": [
+        "TÁC DỤNG KHÔNG MONG MUỐN", "Tác dụng không mong muốn",
+        "TÁC DỤNG BẤT LỢI", "Tác dụng phụ"
+    ],
+    "side_effects_serious": [
+        "TÁC DỤNG KHÔNG MONG MUỐN", "Tác dụng không mong muốn",
+        "TÁC DỤNG BẤT LỢI", "CẢNH BÁO", "Cảnh báo"
+    ],
+    "allergy_history": [
+        "CHỐNG CHỈ ĐỊNH", "Chống chỉ định",
+        "CẢNH BÁO VÀ THẬN TRỌNG", "Cảnh báo và thận trọng",
+        "CẢNH BÁO", "Cảnh báo", "THẬN TRỌNG", "Thận trọng",
+        "4.1. Cảnh báo và thận trọng", "4. Cảnh báo và thận trọng"
+    ],
+    "concurrent_vaccines": [
+        "TƯƠNG TÁC VÀ TƯƠNG KỴ", "Tương tác và tương kỵ",
+        "TƯƠNG TÁC", "Tương tác", "TƯƠNG KỴ", "Tương kỵ",
+        "INTERACTIONS", "Interactions", "3.5. Tương tác và tương kỵ"
+    ],
+    "underlying_conditions": [
+        "CẢNH BÁO VÀ THẬN TRỌNG", "Cảnh báo và thận trọng",
+        "CẢNH BÁO", "Cảnh báo", "THẬN TRỌNG", "Thận trọng",
+        "4.1. Cảnh báo và thận trọng", "WARNINGS", "Warnings"
+    ],
+    "missed_dose": [
+        "LIỀU LƯỢNG VÀ CÁCH DÙNG", "Liều lượng và cách dùng",
+        "Liều dùng", "LỊCH TIÊM", "Lịch tiêm", "3.2. Liều lượng và cách dùng"
+    ],
+    "post_vaccination_monitoring": [
+        "CẢNH BÁO VÀ THẬN TRỌNG", "Cảnh báo và thận trọng",
+        "CẢNH BÁO", "Cảnh báo", "THẬN TRỌNG", "Thận trọng"
+    ],
+    "injection_site_reaction": [
+        "TÁC DỤNG KHÔNG MONG MUỐN", "Tác dụng không mong muốn",
+        "TÁC DỤNG BẤT LỢI", "Tác dụng phụ"
+    ],
+    "age_specific": [
+        "LIỀU LƯỢNG VÀ CÁCH DÙNG", "Liều lượng và cách dùng",
+        "Liều dùng", "Đối tượng", "ĐỐI TƯỢNG", "3.2. Liều lượng và cách dùng"
+    ],
+    "unknown_vaccination_history": [
+        "LIỀU LƯỢNG VÀ CÁCH DÙNG", "Liều lượng và cách dùng",
+        "Liều dùng", "ĐỐI TƯỢNG", "Đối tượng", "3.2. Liều lượng và cách dùng"
+    ],
+    "storage": [
+        "BẢO QUẢN", "Bảo quản", "BẢO QUẢN VÀ SỬ DỤNG", "Bảo quản và sử dụng",
+        "STORAGE", "Storage", "ĐIỀU KIỆN BẢO QUẢN", "Điều kiện bảo quản",
+        "6. Bảo quản", "BẢO QUẢN / SỬ DỤNG"
+    ],
+    "driving_operating": [
+        "ẢNH HƯỞNG ĐẾN KHẢ NĂNG LÁI XE VÀ VẬN HÀNH MÁY MÓC",
+        "Ảnh hưởng đến khả năng lái xe và vận hành máy móc",
+        "LÁI XE", "Lái xe", "VẬN HÀNH MÁY MÓC", "Vận hành máy móc",
+        "EFFECTS ON ABILITY", "Ability to drive"
+    ],
 }
 
 # Categories that require clarification (when vaccine name is unknown)
@@ -199,19 +271,106 @@ def determine_difficulty(category: str) -> str:
         return "hard"
 
 
+def extract_section_content(content: str, section_names: list) -> str:
+    """
+    Extract content from a specific section in the document.
+    Returns the text content of that section (cleaned).
+    """
+    if not section_names:
+        return ""
+
+    # Normalize content - handle various formats
+    content = content.replace('\r\n', '\n').replace('\r', '\n')
+
+    for section_name in section_names:
+        section_name_upper = section_name.upper().strip()
+
+        # Strategy 1: Look for numbered sections like "3.1. Chỉ định" or "4.1. Cảnh báo"
+        numbered_patterns = [
+            rf'\d+\.\d+\.\s*{re.escape(section_name)}[:\s]*\n(.*?)(?=\n\d+\.\d+\.|\n#|\n\*\*[A-Z]|$)',
+            rf'\d+\.\d+\.\s*{re.escape(section_name_upper)}[:\s]*\n(.*?)(?=\n\d+\.\d+\.|\n#|\n\*\*[A-Z]|$)',
+        ]
+        for pattern in numbered_patterns:
+            match = re.search(pattern, content, re.IGNORECASE | re.DOTALL)
+            if match and len(match.group(1).strip()) > 30:
+                section_text = match.group(1).strip()
+                section_text = re.sub(r'\s+', ' ', section_text)
+                if len(section_text) > 1500:
+                    section_text = section_text[:1500] + "..."
+                return section_text
+
+        # Strategy 2: Look for header with ** or ## markers
+        patterns = [
+            rf'\*\*\s*{re.escape(section_name)}\s*\*\*[:\s]*\n(.*?)(?=\n##|\n\*\*[A-Z]|$)',
+            rf'\*\*\s*{re.escape(section_name_upper)}\s*\*\*[:\s]*\n(.*?)(?=\n##|\n\*\*[A-Z]|$)',
+            rf'##\s*{re.escape(section_name)}[:\s]*\n(.*?)(?=\n##|\n#|\n\*\*|$)',
+            rf'##\s*{re.escape(section_name_upper)}[:\s]*\n(.*?)(?=\n##|\n#|\n\*\*|$)',
+        ]
+        for pattern in patterns:
+            match = re.search(pattern, content, re.IGNORECASE | re.DOTALL)
+            if match and len(match.group(1).strip()) > 30:
+                section_text = match.group(1).strip()
+                section_text = re.sub(r'\|\s*:---.*?\n', '\n', section_text)
+                section_text = re.sub(r'\s+', ' ', section_text)
+                if len(section_text) > 1500:
+                    section_text = section_text[:1500] + "..."
+                return section_text
+
+        # Strategy 3: Look for section as a line header
+        lines = content.split('\n')
+        for i, line in enumerate(lines):
+            line_upper = line.strip().upper()
+            # Check if line contains section name and looks like a header
+            if (section_name_upper in line_upper and
+                (line.strip().startswith(section_name) or
+                 line.strip().upper().startswith(section_name_upper) or
+                 '**' + section_name_upper in line_upper or
+                 re.match(r'^\d+\.\d+\.\s+' + re.escape(section_name_upper), line_upper))):
+
+                # Collect content from this line onwards
+                section_lines = []
+                for j in range(i + 1, len(lines)):
+                    next_line = lines[j].strip()
+                    # Stop if we hit another section header
+                    if (re.match(r'^#{1,2}\s', next_line) or
+                        re.match(r'^\*\*[A-Z]', next_line) or
+                        re.match(r'^[A-Z]{2,}\s*:', next_line) or
+                        re.match(r'^\d+\.\d+\.\s+[A-Z]', next_line)):
+                        break
+                    section_lines.append(next_line)
+
+                if section_lines:
+                    section_text = ' '.join(section_lines)
+                    section_text = re.sub(r'\s+', ' ', section_text)
+                    if len(section_text) > 30:
+                        if len(section_text) > 1500:
+                            section_text = section_text[:1500] + "..."
+                        return section_text
+
+    return ""
+
+
 def generate_question_entry(vaccine_name: str, category: str,
                            question_template: str,
-                           filepath: Path) -> dict:
+                           filepath: Path,
+                           content: str = None) -> dict:
     """Generate a single question entry."""
+    section_names = SECTION_MAPPING.get(category, [])
+    source_excerpt = ""
+
+    if content:
+        source_excerpt = extract_section_content(content, section_names)
+
     entry = {
         "id": f"{category}-{uuid.uuid4().hex[:8]}",
         "question": question_template.format(name=vaccine_name),
         "category": category,
         "difficulty": determine_difficulty(category),
         "expected_documents": [filepath.name],
-        "expected_sections": SECTION_MAPPING.get(category, []),
+        "expected_sections": section_names,
         "answer_type": "grounded",
-        "requires_clarification": category in REQUIRES_CLARIFICATION_CATEGORIES
+        "requires_clarification": category in REQUIRES_CLARIFICATION_CATEGORIES,
+        "source_excerpt": source_excerpt
     }
 
     return entry
@@ -239,7 +398,8 @@ def process_document(filepath: Path) -> list[dict]:
             vaccine_name=vaccine_name,
             category=category,
             question_template=template,
-            filepath=filepath
+            filepath=filepath,
+            content=content
         )
         questions.append(entry)
 
