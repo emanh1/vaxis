@@ -1,0 +1,43 @@
+{
+    "QUERY_ID": "VAX_Q_001",
+    "QUERY": "Vaccine X cần tiêm bao nhiêu liều?",
+    "QUERY_DIFFICULTY": "EASY",
+    "QUERY_TYPE": "DOSAGE",
+    "QUERY_SOURCE": "TEMPLATE",
+    "QUERY_COMPLEXITY": "SINGLE_HOP",
+    "ENTITIES": {
+        "vaccine": "Vaccine X"
+    },
+    "CONSTRAINTS": {},
+    "ANSWERABILITY": "ANSWERABLE",
+    "RELEVANT_DOCS": [
+        "DOC_001"
+    ],
+    "RELEVANT_CHUNKS": [
+        {
+            "CHUNK_ID": "CH_001",
+            "TEXT": "....",
+            "RELEVANCE_SCORE": 3,
+            "EVIDENCE_SPANS": [
+                {
+                    "START": 120,
+                    "END": 280
+                }
+            ]
+        }
+    ],
+    "REQUIRED_EVIDENCE_GROUPS": [
+        "NUMBER_OF_DOSES"
+    ],
+    "EVIDENCE_COMPLETENESS": "COMPLETE",
+    "REFERENCE_ANSWER": null,
+    "CLAIM_EVIDENCE_MAP": [],
+    "SOURCE_VERSION": "PI_VERSION_ID",
+    "VERIFIED": true,
+    "ANNOTATOR_IDS": [
+        "A1",
+        "A2"
+    ],
+    "ADJUDICATED": true,
+    "VERIFICATION_NOTES": null
+}
